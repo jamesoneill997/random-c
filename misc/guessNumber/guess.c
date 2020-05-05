@@ -36,7 +36,7 @@ int main(){
             
         }
     }
-    
+
     //results
     if (guess == randomNumber &&remainingGuesses > 0){
         printf("\n Correct, great job!\n");
@@ -44,4 +44,6 @@ int main(){
     else{
         printf("\nBetter luck next time!\n");
     }
+
+    return 0;
 }
