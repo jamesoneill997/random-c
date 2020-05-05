@@ -9,7 +9,6 @@ int main(){
     int randomNumber = rand() % 21;
     int guess;
     int remainingGuesses = 5;
-    printf("%d\n", randomNumber);
     printf("This is a random number guessing game!\n");
     printf("The number is between 1 and 20. You have 5 guesses.\n");
     printf("Enter guess: ");
@@ -27,10 +26,10 @@ int main(){
             //remove guess for all cases
             remainingGuesses--;
             if(guess < randomNumber){
-                printf("\nIncorrect, try higher!\nYou have %d remaining guesses.\nEnter guess: ",remainingGuesses);
+                printf("\nIncorrect, try higher!\nYou have %d remaining guess(es).\nEnter guess: ",remainingGuesses);
             }
             else if(guess > randomNumber){
-                printf("\nIncorrect, try lower!\nYou have %d remaining guesses.\nEnter guess: ",remainingGuesses);
+                printf("\nIncorrect, try lower!\nYou have %d remaining guess(es).\nEnter guess: ",remainingGuesses);
             }
             scanf("%i",&guess);
             
