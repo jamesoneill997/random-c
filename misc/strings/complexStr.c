@@ -6,14 +6,13 @@ void revString(char letters[]);
 void bubbleSort(char str[][20], int size);
 
 int main(){
-    char string[50];
     int len=0;
     printf("How many words are you going to sort?\n");
     scanf("%d", &len);
     char list[len][20];
 
     for (int i = 0;i<len;i++){
-        scanf("%s", &list[i]);
+        scanf("%19s", list[i]);
     }
     printf("\n\n\n\n\n\n");
 
