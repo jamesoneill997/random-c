@@ -1,15 +1,3 @@
-/*
-Problem definition:
-    user enters amount of hours
-    pay rate is 12/hr
-    overtime is anything above 40 hours
-    overtime is time and a half (18)
-    tax rate is:
-        15% for first 300
-        20% for next 150
-        25% for the remainder
-*/
-
 #include <stdio.h>
 
 int main(){
