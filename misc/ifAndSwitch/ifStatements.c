@@ -22,7 +22,7 @@ int main(){
 
 
     //ternary statement = condition ? expression 1 : expression 2
-    a==b ? printf("The same\n") : printf("Not the same\n");
+      
 
     return 0;
 
