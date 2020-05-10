@@ -43,12 +43,19 @@ int main(){
     //set pointer to beginning of the array
     pVals = values;
     //this does the same thing
-    pVals = &values[0]
+    pVals = &values[0];
+
+    //sets 4th element to 27
+    *(pVals+3) = 27;
+
+    //next elem in the array
+    pVals+=1;
+
+    
+
 
    //integer val printed    
-    
-    
-    
+     
     printf("%d\n", (int *) vptr);
 
 
