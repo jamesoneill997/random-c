@@ -1,3 +1,3 @@
-Hello, world!
-My name is James
-This is a line
+HELLO
+THIS IS A NEW LINE
+HELLO AGAIN

@@ -9,7 +9,7 @@ int main(){
     FILE *pFile = NULL;
     char *filename = "test.txt";
     pFile = fopen(filename, "w"); //open file to write
-    if (!pfile)
+    if (!pFile)
     {
         printf("Failed to open file %s\n", filename);   
     }
