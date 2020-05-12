@@ -7,7 +7,10 @@ struct item{
         double price;
         double amount;
 };
+
 void readItem(struct item *pItem);
+
+void printItem(struct item *pItem);
 
 int main(){
     //struct item *pFlowers = (struct item *) calloc(1, sizeof(struct item));
@@ -18,6 +21,7 @@ int main(){
     
 
     readItem(pFlowers);
+    printItem(pFlowers);
     
     free(pFlowers);
 
@@ -36,5 +40,8 @@ void readItem(struct item *pItem){
     scanf("%lf", &(pItem->price));
     pItem->amount = pItem->price * pItem->quantity;
 
-    //printf("\n%s\n, %d\n. %.2lf\n, %.2lf\n", pItem->itemName, pItem->quantity,pItem->price,pItem->amount);
+}
+
+void printItem(struct item *pItem){
+    printf("\nItem name: %s\nItem quantity: %d\nItem price: %.2lf\n\n\nSubtotal: %.2lf\n", pItem->itemName, pItem->quantity,pItem->price,pItem->amount);
 }
