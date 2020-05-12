@@ -18,7 +18,7 @@ int main(){
 
     pFlowers=&flowers;
     pFlowers = (struct item *) malloc(1* sizeof(struct item));
-    
+        
 
     readItem(pFlowers);
     printItem(pFlowers);
