@@ -92,6 +92,7 @@ int main(){
     pointers.p1 = &i;
     pointers.p2 = &j;
 
+
     //always use pointers to structs when passing to functions
     int getDates(struct date *myd);
 
